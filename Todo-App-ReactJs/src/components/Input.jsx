@@ -10,7 +10,6 @@ const Input = () => {
         }}/>
         <button className='px-5 py-px rounded border active:scale-98 font-medium'
         onClick={() => {
-          console.log(task);
           <TaskContainer task={task}/>
           setTask("")
           
